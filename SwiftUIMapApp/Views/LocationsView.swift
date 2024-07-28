@@ -14,6 +14,7 @@ struct LocationsView: View {
     @EnvironmentObject private var vm: LocationsViewModel
     
     var body: some View {
+        
         ZStack {
             mapLayer
                 .ignoresSafeArea()
@@ -24,6 +25,9 @@ struct LocationsView: View {
                 Spacer()
                 locationPreviewStack
             }
+        }
+        .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
+            LocationDetailView(location: location)
         }
     }
 }
