@@ -16,7 +16,7 @@
 		9FB5BEBC2C547FC000E76778 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5BEBB2C547FC000E76778 /* LocationsView.swift */; };
 		9FB5BEBE2C54821A00E76778 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5BEBD2C54821A00E76778 /* LocationsViewModel.swift */; };
 		9FB5BEC02C55361C00E76778 /* LocationsLIstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5BEBF2C55361C00E76778 /* LocationsLIstView.swift */; };
-		9FB5BEC22C55495700E76778 /* MapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5BEC12C55495700E76778 /* MapTest.swift */; };
+		9FB5BEC42C55C2D300E76778 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5BEC32C55C2D300E76778 /* LocationPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		9FB5BEBB2C547FC000E76778 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		9FB5BEBD2C54821A00E76778 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		9FB5BEBF2C55361C00E76778 /* LocationsLIstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsLIstView.swift; sourceTree = "<group>"; };
-		9FB5BEC12C55495700E76778 /* MapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTest.swift; sourceTree = "<group>"; };
+		9FB5BEC32C55C2D300E76778 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			children = (
 				9FB5BEBB2C547FC000E76778 /* LocationsView.swift */,
 				9FB5BEBF2C55361C00E76778 /* LocationsLIstView.swift */,
-				9FB5BEC12C55495700E76778 /* MapTest.swift */,
+				9FB5BEC32C55C2D300E76778 /* LocationPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,9 +191,9 @@
 				9FB5BEBE2C54821A00E76778 /* LocationsViewModel.swift in Sources */,
 				9FA347372C543BF900AC113E /* ContentView.swift in Sources */,
 				9FB5BEC02C55361C00E76778 /* LocationsLIstView.swift in Sources */,
+				9FB5BEC42C55C2D300E76778 /* LocationPreviewView.swift in Sources */,
 				9FB5BEBC2C547FC000E76778 /* LocationsView.swift in Sources */,
 				9FA347482C543ED500AC113E /* Location.swift in Sources */,
-				9FB5BEC22C55495700E76778 /* MapTest.swift in Sources */,
 				9FA347352C543BF900AC113E /* SwiftUIMapAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
